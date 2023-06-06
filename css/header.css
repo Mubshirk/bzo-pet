@@ -1,0 +1,346 @@
+/* hidden nav  */
+
+.hidden-nav{
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px 15px 0px 15px;
+
+
+
+  width: 1;
+  /* justify-content: space-between; */
+
+  /* margin-bottom: 50px; */
+}
+
+.hidden-nav-img{
+  display: flex;
+
+  justify-content: space-between;
+}
+.shoping-hidden-nav{
+  position: relative;
+}
+.shoping-hidden-nav div{
+  position: absolute;
+  top: -3px;
+  right: -5px;
+  font-size: 11px;
+  background-color:#F94073;
+  padding: 3px 4px 3px 4px;
+  border-radius: 10px;
+}
+/* .logo-img, */
+.shoping-img{
+  height: 25px;
+}
+.menue-img{
+  height: 30px;
+}
+
+
+/* hidden nav inoutpart  */
+
+.hidden-nav-input{
+  margin:10px;
+}
+
+.hidden-nav-input input{
+
+  width: 100%;
+
+  height: 35px;
+
+  border-radius: 17px ;
+
+  border: none;
+}
+
+.hidden-nav-input input::placeholder{
+
+  font-family: Arial;
+  padding-left: 18px;
+
+  color: lightgray;
+
+}
+
+.hidden-nav-input input:active{
+  border-color: #F94073;
+}
+
+
+
+
+
+
+
+
+
+/*Main header*/
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 1;
+  background-color: rgb(45, 48, 84);
+  color: white;
+  /* padding-right: 60px; */
+  font-family: Arial;
+
+  letter-spacing: 0;
+}
+
+/* first nav part */
+
+.nav-first-part {
+  height: 17px;
+  border: none;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 27px;
+  /* line-height: 38px; */
+  width: 1;
+  padding: 9px 0px 30px 0px;
+  /* margin-top: -6px; */
+
+  justify-content: space-between;
+}
+
+.left-part-first-nav {
+  display: flex;
+  font-display: row;
+  width: 1;
+}
+
+.left-part-btn-first-nav {
+  display: flex;
+  /* vertical-align: top; */
+
+  /* align-items: center; */
+}
+.truck-icon,
+.question-icon {
+  /* margin-top: 4px; */
+  margin-right: 8px;
+  height: 16px;
+}
+.truck-icon {
+  height: 20px;
+  /* margin-top: 11px; */
+
+
+
+  margin-left: 35px;
+}
+
+.help-btn-first-nav-left {
+  /* padding-: 20px; */
+
+  transition: color 0.15s;
+}
+
+.help-btn-first-nav-left:hover{
+  color: #F94073;
+  cursor: pointer;
+}
+
+/* first nav left side finishes here ... now right part start... */
+
+.right-part-first-nav {
+  width: 1;
+  margin-right: 5px;
+  display: flex;
+  font-display: row;
+}
+
+.right-part-btn-first-nav {
+  display: flex;
+}
+
+.right-btn-btn-first-nav-right {
+  padding-right: 25px;
+  transition: color 0.15s;
+}
+.right-btn-btn-first-nav-right:hover{
+
+  color: #F94073;
+  cursor: pointer;
+
+}
+
+/* right part of first nav finishes here */
+
+.hr-nav {
+  width: 100%;
+
+  border-color: rgb(105, 109, 156);
+
+  opacity: 0.5;
+}
+
+.nav-second-part {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding-top: 20px ;
+
+  padding-bottom: 14px;
+
+  margin-left: 27px;
+
+  width: 1;
+
+  
+}
+
+.btn-second-nav-left-part{
+
+  width: 1;
+
+  /* padding-top: 30px; */
+  font-family: jokerman;
+  font-weight: 700;
+  display: flex;
+
+  font-size: 18px;
+
+
+}
+
+
+
+
+.btn-btn-second-nav-left-part{
+
+  padding-right: 25px;
+  transition: color 0.15s;
+}
+
+.btn-btn-second-nav-left-part:hover{
+  color: #F94073;
+  cursor: pointer;
+}
+
+/* right part started and middle part is automaticcally set */
+
+.second-nav-middle-part{
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.hr-second-nav{
+  margin: 0px 25px 0px 0px;
+  height: 18px;
+  border-color: rgb(105, 109, 156);
+
+  opacity: 0.5;
+  width: 1px;
+  padding: 0;
+  /* border: none;
+  border-left: 1px solid #ffffff; /* Change the color and style as needed */
+  /*margin: 0;
+  padding: 0; */
+}
+
+.second-nav-right-part{
+  width: 1;
+  justify-content: right;
+  display: flex;
+  font-size: 13px;
+  margin-right: 25px;
+  /* vertical-align: text-bottom; */
+  align-items: center;
+}
+.shoping-icon-second-nav-right-part ,
+.icon-second-nav-right-part{
+
+  height: 25px;
+  margin-right: 25px;
+
+  transition: opacity 0.15s;
+
+}
+.shoping-icon-second-nav-right-part:hover ,
+.icon-second-nav-right-part:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.div-tooltip{
+  position: relative;
+}
+.shoping-icon-second-nav-right-part{
+  position: relative;
+}
+.tooltip{
+  position: absolute;
+  background-color: #F94073;
+  color: white;
+  border-radius: 10px;
+  top: 0px;
+  right: 18px;
+  height: 15px;
+  width: 15px;
+  font-size: 13px;
+  text-align: center;
+}
+
+
+
+
+.btn-btn-right-part-second-nav{
+  padding-right: 30px;
+  transition: color 0.15s;
+}
+.btn-btn-right-part-second-nav:hover{
+
+  color: #F94073;
+  cursor: pointer;
+}
+
+
+
+/* third nav start */
+
+.nav-third{
+  letter-spacing: 1px;
+  font-weight: 500;
+  /* color: #F94073; */
+  font-size: 14px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-right: 30px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  /* vertical-align: top; */
+  align-items:baseline;
+}
+
+.nav-third-btn{
+  display: flex;
+  opacity: 0.7;
+  transition: color 0.15s;
+}
+
+.nav-third-btn:hover{
+  color: #F94073;
+}
+
+      /* img and text on it  */
+
+
+
+
+
+
+
+
+
+
+
+

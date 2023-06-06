@@ -1,0 +1,186 @@
+
+/* hidden nav  */
+
+
+
+
+@media(max-width:1100px){
+
+    .nav-first-part{
+        visibility: hidden;
+        height: 0;
+        position: absolute;
+        }
+
+    .nav-second-part{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    hr{
+        visibility: hidden;
+    }
+    .nav-third{
+        visibility: hidden;
+        position: absolute;
+    }
+}
+
+/* hidden nave hiding */
+
+@media(min-width:1100px){
+
+    .hidden-nav{
+        visibility: hidden;
+        position: absolute;
+    }
+}
+
+
+/* page one image started  */
+
+@media(max-width:1260px){
+
+    .text-img1st{
+        font-size: 220%;
+    }
+
+    .price{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:990px){
+
+    .stuff-img1st{
+        left: 25%;
+    }
+
+    .text-img1st{
+        font-size: 180%;
+    }
+
+    .icon1{
+        top: 40%;
+    }
+
+    .price{
+        top: 40%;
+    }
+}
+
+
+
+@media(max-width:820px){
+
+    .stuff-img1st{
+        left: 30%;
+    }
+
+    .text-img1st{
+        left: 30%;
+        align-items:center ;
+        font-size: 130%;
+
+        word-spacing: 0;
+    }
+
+    .icon1{
+        /* visibility: hidden;
+        position: absolute; */
+        top: 40%; 
+        left: 30%;
+    }
+
+    .price{
+        top: 40%;
+        left: 30%;
+
+        /* visibility: hidden;
+        position: absolute; */
+    }
+
+    .btn2nd-img1st ,
+    .btn1st-img1st{
+
+        width: 25%;
+
+        height: 20%;
+        font-size: 10px;
+
+        top: 70%;
+
+        left: 20%;
+
+    }
+
+    .btn2nd-img1st{
+        left: 50%;
+    }
+}
+
+@media(max-width:700px){
+    
+    .stuff-img1st{
+        left: 42%;
+    }
+}
+
+
+
+/* the first page image finally done  */
+
+
+
+@media(max-width:1020px){
+    /* .page2nd-img-container{
+        /* grid-template-columns: 1fr 1fr 1fr ; 
+    }*/
+
+    .page2nd-whole-img5{
+        visibility: hidden;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+}
+
+
+@media(max-width:780px){
+
+    .heading2nd ,
+    .heading1st{
+        font-size: 25px;
+    }
+
+
+    .page2nd-whole-img4{
+        visibility: hidden;
+        position: absolute;
+    }
+}
+
+
+@media(max-width:600px){
+
+
+    .page2nd-whole-img3{
+        visibility: hidden;
+        position: absolute;
+    }
+}
+
+
+
+
+
+
+
+
+
+
