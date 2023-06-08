@@ -283,7 +283,31 @@
 
 
 
+/* our services started  */
 
+
+@media(max-width:1125px) {
+
+    .our-services-container-branch{
+
+        grid-template-columns: 1fr 1fr;
+
+        row-gap: 30px;
+    }
+    
+}
+
+
+@media(max-width:700px) {
+
+    .our-services-container-branch{
+
+        grid-template-columns: 1fr;
+
+    
+    }
+    
+}
 
 
 

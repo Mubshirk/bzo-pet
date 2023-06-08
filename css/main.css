@@ -20,7 +20,7 @@
 
 
 .stuff-img1st{
-    /* border: 2px solid black; */
+    /* border: 2px solid solid black; */
     align-items: start;
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@
      /* color: white; */
     /* font-size: 24px; */
     text-align: center;
-     /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+     /* text-shadow: 2px solid 2px solid 4px rgba(0, 0, 0, 0.5); */
     color: rgb(45, 48, 84) ;
     font-family: Comic Sans MS;
 
@@ -338,7 +338,7 @@
 
     /* width: 280px; */
 
-    border: 2px solid rgb(246, 246, 246);
+    border: 2px solid solid rgb(246, 246, 246);
 
     transition: box-shadow 0.30s;
 
@@ -600,7 +600,7 @@
 
 /* its not in use  */
 .page3rd-first-img{
-    border: 2px solid black;
+    border: 2px solid solid black;
 
     position: relative;
 
@@ -642,7 +642,7 @@
     font-weight: 900;
 
 
-    /* border: 2px solid black; */
+    /* border: 2px solid solid black; */
     align-items: start;
     display: flex;
     flex-direction: column;
@@ -880,7 +880,7 @@
 
     padding: 10px 20px 10px 20px;
 
-    /* border:2px solid black; */
+    /* border:2px solid solid black; */
 }
 
 .sidenav-hidden-btn-btn{
@@ -935,7 +935,7 @@
 .gride-page5th-container{
     margin: 100px 30px 100px 30px;
 
-    /* border: 2px solid green; */
+    /* border: 2px solid solid green; */
 }
 
 
@@ -1163,7 +1163,7 @@
 
     margin: 130px 30px 130px 30px;
 
-    /* border: 2px solid red ; */
+    /* border: 2px solid solid red ; */
 
 
     justify-content: space-around;
@@ -1186,7 +1186,7 @@
 }
 
 .bg-img-container img:hover{
-
+    /* transform: rotateX(150deg); */
     height: 100px;
     
 }
@@ -1205,4 +1205,100 @@
     color: #F94073;
 
 }
+
+
+/* our services page start  */
+
+
+.our-services-container{
+
+    /* border: #e5104d 2px solid; */
+
+    margin: 0px 30px 130px 30px;
+}
+
+.our-services-container-branch{
+
+    display: grid;
+
+    /* justify-content: space-between; */
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    /* border: #00B9C5 solid 1px; */
+
+    /* padding: 10px; */
+}
+
+
+.branch-piece{
+    border: 1px solid rgb(238, 233, 233);
+
+    margin: 0 10px 0 10px;
+    
+
+    width: 1;
+
+    padding: 30px;
+
+    transition: box-shadow 0.40s;
+}
+
+.branch-piece:hover{
+    box-shadow: 4px 4px 15px rgb(204, 202, 202);
+}
+
+.piece-heading{
+    font-family: Comic Sans MS;
+    padding: 20px 0px 20px 0px;
+    font-weight: 800;
+
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(32, 46, 73);
+}
+
+.piece-disc{
+
+    color: rgb(123, 125, 126);
+
+    font-size: medium;
+
+    transition: color 0.20s;
+}
+
+.piece-disc:hover{
+    color: #F94073;
+}
+
+.readmore{
+    padding: 20px 0px 0px 0px;
+    cursor: pointer;
+    font-weight: 800;
+
+    color:#e5104d;
+
+    
+}
+
+.readmore:hover{
+
+    text-decoration:underline red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
