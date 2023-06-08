@@ -1148,6 +1148,61 @@
 }
 
 
+/* it finishes here  */
 
 
+.bg-img-container{
+
+    display: flex;
+
+    background-image: url(jjjjjjjj.png);
+
+    width: 1;
+
+    height: 200px;
+
+    margin: 130px 30px 130px 30px;
+
+    /* border: 2px solid red ; */
+
+
+    justify-content: space-around;
+
+    color: white;
+
+    font-family: Comic Sans MS ;
+
+    font-size: 30px;
+
+
+}
+
+.bg-img-container img{
+    
+    margin-top: 3.5%;
+    height: 90px;
+
+    transition: height 0.30s;
+}
+
+.bg-img-container img:hover{
+
+    height: 100px;
+    
+}
+
+.bg-img-container p{
+
+    margin-top: 50px;
+
+    text-align: center;
+
+    transition: color 0.20s;
+}
+
+.bg-img-container p:hover{
+
+    color: #F94073;
+
+}
 

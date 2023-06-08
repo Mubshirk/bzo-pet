@@ -252,7 +252,33 @@
 
 
 
+/* finishes here  */
 
+
+@media(max-width:840px) {
+
+    .bg-img-container{
+        display: flex;
+
+        flex-direction: column;
+
+        height: 400px;
+
+        font-size: 20px;
+
+        padding: 30px;
+    }
+    .bg-img-container img{
+
+        margin-left: 39%;
+
+        width: 100px;
+    }
+
+    .bg-img-container P{
+        margin: 0;
+    }
+}
 
 
 
