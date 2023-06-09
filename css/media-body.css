@@ -309,9 +309,46 @@
     
 }
 
+/* our partners starts  */
 
 
 
+@media(max-width:1300px) {
+
+    .our-partner-gride-container{
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    
+    }
+    
+}
+
+@media(max-width:1050px) {
+
+    .our-partner-gride-container{
+
+        grid-template-columns: 1fr 1fr 1fr;
+
+    
+    }
+    
+}
+
+@media(max-width:800px) {
+
+    .our-partner-gride-container{
+
+        grid-template-columns: 1fr 1fr;
+
+    
+    }
+
+    .page5th-heading-left{
+        font-size: 30px;
+    }
+    
+}
 
 
 

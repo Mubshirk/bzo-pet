@@ -1177,9 +1177,9 @@
 .why-choose-us-container {
   background-image: url(bg-choose.jpg);
 
-  background-size: 1800px 590px;
+  background-size: 1600px 690px;
 
-  height: 590px;
+  height: 690px;
 
   width: 100%;
 
@@ -1257,3 +1257,57 @@
   padding-top: 20px;
   margin-left: 50px;
 }
+
+  /* our services stuff finihses here  */
+
+  /* our partner starts  */
+
+
+
+.our-partner-contanier{
+
+  margin: 100px 30px 100px 30px;
+
+  /* border: 1px solid red; */
+}
+
+
+.our-partner-gride-container{
+  display: grid;
+  row-gap: 40px;
+  margin-top: 30px;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.our-partner-gride-container img{
+
+  transition: border 0.20s, box-shadow 0.30s ;
+
+  border: 1px solid #ececec;
+  
+}
+.our-partner-gride-container img:hover{
+
+  border:1px solid #f94073;
+
+  border-radius: 10px;
+
+  /* height: 95px; */
+
+  /* padding: 2px; */
+
+  box-shadow: 3px 3px 10px #fdb2c7
+}
+
+
+
+
+
+
+
+
+
+
+
+
