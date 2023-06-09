@@ -1189,7 +1189,7 @@
 .why-choose-us-heading {
   margin-left: 40px;
 
-  padding-top: 40px;
+  padding-top: 20px;
 
   font-size: 40px;
 
@@ -1198,4 +1198,62 @@
   font-family: Comic Sans MS;
 
   color: white;
+}
+
+.why-choose-us-disc-container {
+  margin-left: 30px;
+}
+
+.choose-disc-heading {
+  color: aliceblue;
+  font-weight: 900;
+  font-family: Comic Sans MS;
+  font-size: 25px;
+
+  transition: color 0.2s;
+}
+
+.choose-disc-heading:hover {
+  color: #f94073;
+
+  animation: shake-text 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake-text {
+  0% {
+    transform: translate(20px, 0px) rotate(0deg);
+  }
+  60% {
+    transform: translate(-5px, 5px) rotate(0deg);
+  }
+  100% {
+    transform: translate(30px, 5px) rotate(0deg);
+  }
+  60% {
+    transform: translate(-10px, 0px) rotate(0deg);
+  }
+  80% {
+    transform: translate(50px, 5px) rotate(0deg);
+  }
+  100% {
+    transform: translate(20px, 0px) rotate(0deg);
+  }
+}
+.tick {
+  height: 80px;
+
+  vertical-align: bottom;
+
+  /* margin-top: 10px; */
+
+  padding-top: 40px;
+
+  margin-right: 10px;
+}
+
+.choose-heading-disc {
+  color: #fff;
+  padding-top: 20px;
+  margin-left: 50px;
 }
