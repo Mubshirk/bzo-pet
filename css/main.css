@@ -1060,10 +1060,30 @@
 
   transition: height 0.3s;
 }
+.bg-img-container:hover img{
+
+  animation: possi 1s;
+}
+
+@keyframes possi {
+
+  0% {
+    transform: translate(0px, 0px) rotatey(0deg);
+  }
+  30% {
+    transform: translate(0px, 0px) rotatey(180deg);
+  }
+  80% {
+    transform: translate(0px, 0px) rotatey(-180deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotatey(0deg);
+  }
+}
 
 .bg-img-container img:hover {
   /* transform: rotateX(150deg); */
-  height: 100px;
+  /* height: 100px; */
 }
 
 .bg-img-container p {
