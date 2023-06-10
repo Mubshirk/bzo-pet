@@ -1320,14 +1320,125 @@
   box-shadow: 3px 3px 10px #fdb2c7
 }
 
+/* our blgs start  */
+
+.our-blogs-main{
+  margin: 10px 30px 30px 30px;
+
+  /* border: #00b9c5 2px solid; */
+}
+
+.our-blogs-heading{
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 35px;
+
+  font-family: Comic Sans MS;
+
+  font-weight: 900;
+
+  color: rgb(45, 48, 84);
+
+  margin-bottom: 40px;
+}
+
+.our-blogs-grid{
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+
+  column-gap: 30px;
+
+  /* height: 600px; */
+}
+
+.our-blog-item3rd ,
+.our-blog-item2nd ,
+.our-blog-item1st{
+
+  /* padding: 20px; */
+  position: relative;
 
 
 
+}
+
+.our-blog-item3rd img ,
+.our-blog-item2nd img ,
+.our-blog-item1st img{
+  /* height: 100%; */
+  width: 100%;
+
+  border-radius: 5px;
+
+  /* background: linear-gradient(left to right black); */
+
+  /* background-image: linear-gradient(black , blue); */
+
+  transition: -webkit-mask-image 0.20s;
+}
+
+.our-blog-item3rd img:hover ,
+.our-blog-item2nd img:hover ,
+.our-blog-item1st img:hover{
+  -webkit-mask-image: linear-gradient( blue 25%, transparent);
+
+  /* background-color: black; */
+}
 
 
+.item-chitt{
+
+  position: absolute;
+
+  left: 5%;
+
+  right: 5%;
+
+  bottom: -20%;
+
+  background-color: #fff;
+
+  /* width: 80%; */
+
+  padding: 30px;
+  text-align: center;
+
+  border-radius: 5px;
+
+  box-shadow: 3px 3px 10px rgb(119, 117, 117);
+}
 
 
+.item-lifestyle span{
+  color:#e5104d;
 
+  font-size: medium;
+
+  font-weight: 600;
+}
+
+.item-disc{
+
+  margin-top: 15px;
+
+
+  font-size: 19px;
+
+  font-family: Comic Sans MS;
+
+  font-weight: 900;
+
+  color: rgb(45, 48, 84);
+
+  transition: color 0.20s;
+}
+
+
+.item-disc:hover{
+
+  color: #e5104d;
+}
 
 
 
