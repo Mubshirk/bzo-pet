@@ -1479,10 +1479,20 @@
   font-size: medium;
 
   color: #dbdada;
+
+  transition: color 0.30s;
 }
+
 
 .footer-link1st{
   margin-top: 30px;
+}
+
+
+.footer-link1st:hover ,
+.footer-links:hover{
+
+  color: #f94073;
 }
 
 
@@ -1499,6 +1509,8 @@
   color:#e5104d;
 
   font-family: serif;
+
+  cursor: pointer;
 }
 
 
@@ -1523,6 +1535,8 @@
   color: #f94073;
 
   font-weight: 900;
+
+  cursor: pointer;
 }
 
 
@@ -1608,3 +1622,6 @@
 }
 
 
+.footer-footer p span:hover{
+  color: #e63b6b;
+}
